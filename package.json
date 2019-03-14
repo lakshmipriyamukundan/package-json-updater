@@ -25,6 +25,9 @@
     "tslint": "tslint -c tslint.json -p tsconfig.json -t stylish --fix \"{src,tests}/**/*.ts\"",
     "prepublishOnly": "npm test"
   },
+  "bin":{
+    "pkg-updater": "./dist/src/cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lakshmipriyamukundan/package-json-updater.git"
