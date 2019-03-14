@@ -60,8 +60,12 @@ export const updaterFun = async (pathToPackage: string, newPath: string) => {
   await new bPromise((resolve, reject) => {
     fs.writeFile(newPath, JSON.stringify(results[2]), err => {
       if (err) {
+        // tslint:disable-next-line:no-console
+        console.log('err', err);
         return reject(err);
       }
+      // tslint:disable-next-line:no-console
+      console.log('created', newPath);
       return resolve();
     });
   });
