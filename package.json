@@ -4,7 +4,6 @@
   "description": "updater for dependencies in package json",
   "homepage": "https://github.com/lakshmipriyamukundan/package-json-updater#readme",
   "author": "Lakshmipriya.mukundan@gmail.com <lakshmipriya.mukundan@gmail.com> (https://twitter.com/lakshmipriya)",
-  "main": "dist/src/index.js",
   "typings": "dist/src/index.d.ts",
   "files": [
     "dist/src/*",
@@ -26,7 +25,7 @@
     "prepublishOnly": "npm test"
   },
   "bin":{
-    "pkg-updater": "./dist/src/cli.js"
+    "pkg-json-updater": "./dist/src/cli.js"
   },
   "repository": {
     "type": "git",
