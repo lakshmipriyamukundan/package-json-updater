@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // import { argv } from 'yargs';
 // tslint:disable-next-line:no-var-requires
 import yargs = require('yargs');
