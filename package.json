@@ -1,6 +1,6 @@
 {
   "name": "package-json-updater",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "updater for dependencies in package json",
   "homepage": "https://github.com/lakshmipriyamukundan/package-json-updater#readme",
   "author": "Lakshmipriya.mukundan@gmail.com <lakshmipriya.mukundan@gmail.com> (https://twitter.com/lakshmipriya)",
