@@ -1,5 +1,5 @@
 import * as latestVersion from 'latest-version';
-import * as readPackageJson from 'read-package-json';
+import readPackageJson = require('read-package-json');
 import { Promise as bPromise } from 'bluebird';
 // import * as path from 'path';
 import * as fs from 'fs';
