@@ -1,6 +1,11 @@
 # package-json-updater
 
-updater for dependencies in package json
+simple updater for dependencies in package json
+
+- will get a new package.json file with current version of all dependencies and devDependencies
+  and all the other contents will remain the same.
+
+- helpful for those those who take prototype of package json from old project and using it in current project and need all dependencies with current version.
 
 [![npm](https://img.shields.io/npm/v/package-json-updater.svg)](https://www.npmjs.com/package/package-json-updater)
 [![Travis](https://img.shields.io/travis/lakshmipriyamukundan/package-json-updater.svg)](https://travis-ci.org/lakshmipriyamukundan/package-json-updater)
@@ -12,29 +17,9 @@ updater for dependencies in package json
 
 ![](https://cataas.com/cat)
 
-## Install
-
-With npm
-
-```bash
-npm i --save package-json-updater
-```
-
-With yarn
-
-```bash
-yarn add package-json-updater
-```
-
-You don't have to install type definitions for typescript. It's built in.
-
-## How it works
-
-Optional
-
 ## Usage
 
-- shell command
+- Install package-json-updater globally
 
 pkg-json-updater --src=path/to/source/package.json --dest=path/to/dest/new-package.json
 
