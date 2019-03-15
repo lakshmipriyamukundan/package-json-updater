@@ -34,7 +34,9 @@ Optional
 
 ## Usage
 
-Describe usage
+- shell command
+
+pkg-json-updater --src=path/to/source/package.json --dest=path/to/dest/new-package.json
 
 ## Change log
 
