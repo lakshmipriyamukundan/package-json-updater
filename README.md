@@ -15,7 +15,7 @@ simple updater for dependencies in package json
 
 <!-- [![npm](https://img.shields.io/npm/dt/package-json-updater.svg)]() -->
 
-![](https://cataas.com/cat)
+![](http://chittagongit.com//images/upgrade-icon-png/upgrade-icon-png-13.jpg)
 
 ## Usage
 
