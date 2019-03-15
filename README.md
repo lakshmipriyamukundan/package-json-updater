@@ -19,6 +19,8 @@ simple updater for dependencies in package json
 
 ## Usage
 
+- CLI tool
+
 - Install package-json-updater globally
 
 pkg-json-updater --src=path/to/source/package.json --dest=path/to/dest/new-package.json
